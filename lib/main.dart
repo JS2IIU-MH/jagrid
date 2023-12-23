@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'package:jagrid/gps.dart';
 import 'package:jagrid/geoloc.dart';
@@ -93,11 +94,23 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _locationUpdate() {
+    // avoid unneccesary repeat updte by counter
     _countUpdate++;
     if (_countUpdate < 5) {
       _updateLocation();
       _updateAddress();
       _updateGL();
+    }
+  }
+
+  void _openMap() async {
+    // Open google map on browser
+    if (revGeoAddress != '現在地住所') {
+      final Uri url =
+          Uri.parse("https://www.google.com/maps/place/$revGeoAddress");
+      if (!await launchUrl(url)) {
+        throw Exception('Could not launch $url');
+      }
     }
   }
 
@@ -178,7 +191,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               const Gap(30),
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  _openMap();
+                },
                 icon: Icon(
                   Icons.map,
                   color: Theme.of(context).colorScheme.primary,
