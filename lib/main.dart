@@ -1,0 +1,194 @@
+// import 'dart:ui';
+
+import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
+
+import 'package:jagrid/gps.dart';
+import 'package:jagrid/geoloc.dart';
+import 'package:jagrid/gl.dart';
+
+void main() {
+  // load dotenv environment file
+  dotenvInit();
+
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'JA Grid',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color.fromARGB(255, 5, 14, 62)),
+        useMaterial3: true,
+      ),
+      home: const MyHomePage(title: 'JA Grid'),
+      debugShowCheckedModeBanner: false,
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  // int _counter = 0;
+  int _countUpdate = 0;
+  // latitude longitude
+  double currentLat = 0.0;
+  double currentLon = 0.0;
+  // GL string from convGridLocator()
+  String currentGL = 'GridLocator';
+  // address string from reverseGeoCoder
+  String revGeoAddress = '現在地住所';
+
+  void _updateLocation() async {
+    debugPrint('_updateLocation()');
+    var currentLoc = getGPSLatLon();
+    debugPrint(currentLoc.toString());
+    if (currentLoc != null) {
+      currentLoc.then((content) {
+        setState(() {
+          // GPS Lat/Lon in double
+          currentLat = content.elementAt(0);
+          currentLon = content.elementAt(1);
+        });
+      });
+      debugPrint('AAA $currentLat, $currentLon');
+    }
+  }
+
+  void _updateAddress() {
+    // Lat/Lonが取得できたので、それをreverse GeoCoderに渡す
+    debugPrint('getAddress');
+    if (currentLat != 0.0 && currentLon != 0.0) {
+      var future = getAddress(currentLat, currentLon);
+      future.then((content) {
+        setState(() {
+          revGeoAddress = content;
+        });
+      });
+    }
+  }
+
+  void _updateGL() {
+    // Grid Locator
+    if (currentLat != 0.0 && currentLon != 0.0) {
+      setState(() {
+        currentGL =
+            convGridLocator(convDecLat(currentLat), convDecLon(currentLon));
+      });
+    }
+  }
+
+  void _locationUpdate() {
+    _countUpdate++;
+    if (_countUpdate < 5) {
+      _updateLocation();
+      _updateAddress();
+      _updateGL();
+    }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    _locationUpdate();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        title: Text(
+          widget.title,
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.onPrimary,
+            fontSize: 24,
+          ),
+        ),
+      ),
+      body: Column(
+        // mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          const Gap(30),
+          Text(
+            'Lat: $currentLat, Lon: $currentLon',
+          ),
+          const Gap(10),
+          Text(
+            currentGL,
+            style: const TextStyle(
+              fontFamily: 'NotoSerif',
+              fontSize: 50.0,
+            ),
+          ),
+          const Gap(10),
+          Text(
+            revGeoAddress,
+            style: Theme.of(context).textTheme.headlineMedium,
+          ),
+          const Gap(50),
+          SizedBox(
+            width: 330,
+            height: 80,
+            child: ElevatedButton.icon(
+              style: ElevatedButton.styleFrom(
+                foregroundColor: Theme.of(context).colorScheme.onPrimary,
+                backgroundColor: Theme.of(context).colorScheme.primary,
+                textStyle: const TextStyle(fontSize: 30),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(13)),
+              ),
+              onPressed: () {
+                _locationUpdate();
+              },
+              icon: const Icon(Icons.search),
+              label: const Text('Update'),
+            ),
+          ),
+
+          const Gap(20),
+          // Text(
+          //   '$_counter',
+          //   style: Theme.of(context).textTheme.headlineMedium,
+          // ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.share,
+                  color: Theme.of(context).colorScheme.primary,
+                  size: 38.0,
+                ),
+              ),
+              const Gap(30),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.map,
+                  color: Theme.of(context).colorScheme.primary,
+                  size: 38.0,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}

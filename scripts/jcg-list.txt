@@ -1,0 +1,782 @@
+北海道  01
+  01001   Akan                阿寒
+  01002   Ashoro              足寄
+  01003   Atsukeshi           厚岸
+* 01004   Atsuta              厚田       "Sep.30,2005"
+  01005   Abashiri            網走
+          Ozoracho            大空町
+          Bihorochou          美幌町
+          Tubetuchou          津別町
+  01006   Abuta(Shiribeshi)   虻田(後志)
+          Kimobetsucho        喜茂別町
+          Kutchancho          倶知安町
+          Kyogokucho          京極町
+          Makkarimura         真狩村
+          Nisekocho           ニセコ町
+          Rusutsumura         留寿都村
+  01007   Abuta(Iburi)        虻田(胆振)
+          Toyouracho          豊浦町
+          Touyakocho          洞爺湖町
+  01008   Ishikari            石狩
+  01009   Isoya               磯谷
+  01010   Iwanai              岩内
+  01011   Usu                 有珠
+* 01012   Utasutsu            歌棄      "Jan.14,1955"
+  01013   Urakawa             浦河
+  01014   Uryu(Sorachi)       雨竜(空知）
+          Moseushicho         妹背牛町
+          Chippubetsucho      秩父別町 
+          Uryucho             雨竜町
+          Hokuryucho          北竜町
+          Numatacho           沼田町
+  01015   Esashi              枝幸
+  01016   Okushiri            奥尻
+* 01017   Oshoro              忍路      "Mar.31,1958"
+  01018   Kasai               河西
+  01019   Kato                河東
+  01020   Kabato              樺戸
+  01021   Kamiiso             上磯
+  01022   Kamikawa(Tokachi)   上川(十勝)
+          Shimizucho          清水町
+          Shintokucho         新得町
+  01023   Kamikawa(Kamikawa)  上川(上川)
+          Aibetsucho          愛別町
+          Asahicho            朝日町
+          Bieicho             美瑛町
+          Higashikaguracho    東神楽町
+          Higashikawacho      東川町
+          Pippucho            比布町
+          Kamikawacho         上川町
+          Kenbuchicho         剣淵町
+          Shimokawacho        下川町
+          Takasucho           鷹栖町
+          Tomacho             当麻町
+          Wassamucho          和寒町
+  01024   Kameda              亀田
+  01025   Kayabe              茅部
+  01026   Kawakami            川上
+  01027   Kushiro             釧路
+  01028   Kudo                久遠
+* 01029   Sapporo             札幌      "Aug.31,1996"
+  01030   Samani              様似
+  01031   Saru                沙流
+* 01032   Shizunai            静内      "Mar.30,2006"
+  01033   Shibetsu            標津
+  01034   Shimamaki           島牧
+  01035   Shakotan            積丹
+  01036   Shari               斜里
+  01037   Shiraoi             白老
+  01038   Shiranuka           白糠
+  01039   Suttsu              寿都
+  01040   Setana              瀬棚
+  01041   Soya                宗谷
+  01042   Sorachi(Sorachi)    空知(空知)
+          Kamisunagawacho     上砂川町
+          Naiecho             奈井江町
+          Nanporocho          南幌町
+  01043   Sorachi(Kamikawa)   空知(上川)
+          Kamifuranocho       上富良野町
+          Minamifuranocho     南富良野町
+          Nakafuranocho       中富良野町
+* 01044   Chitose             千歳      "Oct.31,1970"
+  01045   Teshio(Rumoi)       天塩(留萌)
+          Enbetsucho          遠別町
+          Teshiocho           天塩町
+  01046   Teshio(Soya)        天塩(宗谷)
+          Toyotomicho         豊富町
+          Horonobecho         幌延町
+  01047   Tokachi             十勝
+  01048   Tokoro              常呂
+  01049   Tomamae             苫前
+  01050   Nakagawa(Kamikawa)  中川(上川)
+          Bifukacho           美深町
+          Nakagawacho         中川町
+          Otoinetsupumura     音威子府村
+  01051   Nakagawa(Tokachi)   中川(十勝)
+          Honbetsucho         本別町
+          Ikedacho            池田町
+          Makubetsucho        幕別町
+          Toyokorocho         豊頃町
+  01052   Niikappu            新冠
+  01053   Nishi               爾志
+* 01054   Nemuro              根室      "Jul.31,1957"
+  01055   Notsuke             野付
+* 01056   Hanasaki            花咲      "Mar.31,1959"
+* 01057   Hamamasu            浜益      "Sep.30,2005"
+* 01058   Bikuni              美国      "Sep.29,1956"
+  01059   Hiyama              檜山
+  01060   Hiroo               広尾
+* 01061   Futoro              太櫓      "Mar.31,1955"
+  01062   Furuu               古宇
+  01063   Furubira            古平
+  01064   Horoizumi           幌泉
+* 01065   Horobetsu           幌別      "Jul.31,1970"
+  01066   Mashike             増毛
+  01067   Matsumae            松前
+* 01068   Mitsuishi           三石      "Mar.30,2006"
+  01069   Menashi             目梨
+  01070   Mombetsu            紋別
+  01071   Yamakoshi           山越
+  01072   Yubari              夕張
+  01073   Yufutsu(Iburi)      勇払(胆振)
+          Atsumacho           厚真町
+          Abiracho            安平町
+          Mukawacho           むかわ町
+  01074   Yufutsu(Kamikawa)   勇払(上川)
+          Shimukappumura      占冠村
+  01075   Yoichi              余市
+  01076   Rishiri             利尻
+  01077   Rumoi               留萌
+  01078   Rebun               礼文
+  01079   Futami              二海
+  01080   Hidaka              日高
+  01081   Uryu(Kamikawa)      雨竜(上川）
+　　　　　Horokanaicho　　　　幌加内町
+青  森  02
+  02001   Kamikita            上北
+  02002   Kitatsugaru         北津軽
+  02003   Sannohe             三戸
+  02004   Shimokita           下北
+  02005   Nakatsugaru         中津軽
+  02006   Nishitsugaru        西津軽
+  02007   Higashitsugaru      東津軽
+  02008   Minamitsugaru       南津軽
+
+岩  手  03
+  03001   Isawa               胆沢
+  03002   Iwate               岩手
+* 03003   Esashi              江刺      "Nov.2,1958"
+  03004   Kamihei             上閉伊
+  03005   Kunohe              九戸
+  03006   Kesen               気仙
+  03007   Shimohei            下閉伊
+  03008   Shiwa               紫波
+  03009   Nishiiwai           西磐井
+  03010   Ninohe              二戸
+* 03011   Hienuki             稗貫      "Dec.31,2005"
+* 03012   Higashiiwai         東磐井    "Sep.25,2011"
+  03013   Waga                和賀
+
+秋  田  04
+  04001   Ogachi              雄勝
+  04002   Kazuno              鹿角
+* 04003   Kawabe              河辺      "Jan.10,2005"
+  04004   Kitaakita           北秋田
+  04005   Semboku             仙北
+* 04006   Hiraka              平鹿      "Sep.30,2005"
+  04007   Minamiakita         南秋田
+  04008   Yamamoto            山本
+* 04009   Yuri                由利      "Sep.30,2005"
+
+山  形  05
+  05001   Akumi               飽海
+  05002   Kitamurayama        北村山
+  05003   Nishiokitama        西置賜
+* 05004   Nishitagawa         西田川    "Sep.30,2005"
+  05005   Nishimurayama       西村山
+  05006   Higashiokitama      東置賜
+  05007   Higashitagawa       東田川
+  05008   Higashimurayama     東村山
+* 05009   Minamiokitama       南置賜    "Mar.31,1958"
+* 05010   Minamimurayama      南村山    "Mar.20,1957"
+  05011   Mogami              最上
+
+宮  城  06
+  06001   Igu                 伊具
+  06002   Oshika              牡鹿
+  06003   Katta               刈田
+  06004   Kami                加美
+* 06005   Kurihara            栗原      "Mar.31,2005"
+  06006   Kurokawa            黒川
+* 06007   Shida               志田      "Mar.30,2006"
+  06008   Shibata             柴田
+* 06009   Tamatsukuri         玉造      "Mar.30,2006"
+  06010   Toda                遠田
+* 06011   Tome                登米      "Mar.31,2005"
+* 06012   Natori              名取      "Feb.29,1988"
+  06013   Miyagi              宮城
+  06014   Motoyoshi           本吉
+* 06015   Monou               桃生      "Mar.31,2005"
+  06016   Watari              亘理
+
+福  島  07
+* 07001   Asaka               安積      "Apr.30,1965"
+  07002   Adachi              安達
+  07003   Ishikawa            石川
+* 07004   Ishiki              石城      "Sep.30,1966"
+  07005   Iwase               岩瀬
+  07006   Onuma               大沼
+  07007   Kawanuma            河沼
+* 07008   Kitaaizu            北会津    "Oct.31,2004"
+* 07009   Shinobu             信夫      "Sep.30,1968"
+  07010   Soma                相馬
+  07011   Date                伊達
+  07012   Tamura              田村
+  07013   Nishishirakawa      西白河
+  07014   Higashishirakawa    東白川
+  07015   Futaba              双葉
+  07016   Minamiaizu          南会津
+  07017   Yama                耶麻
+
+新  潟  08
+  08001   Iwafune             岩船
+  08002   Kariwa              刈羽
+* 08003   Kitauonuma          北魚沼    "Mar.30,2010"
+  08004   Kitakambara         北蒲原
+* 08005   Koshi               古志      "Mar.31,2005"
+* 08006   Sado                佐渡      "Feb.29,2004"
+  08007   Santo               三島
+  08008   Nakauonuma          中魚沼
+* 08009   Nakakambara         中蒲原    "Dec.31,2005
+* 08010   Nakakubiki          中頸城    "Mar.31,2005"
+  08011   Nishikambara        西蒲原
+* 08012   Nishikubiki         西頸城    "Mar.18,2005"
+  08013   Higashikambara      東蒲原
+* 08014   Higashikubiki       東頸城    "Mar.31,2005"
+  08015   Minamiuonuma        南魚沼
+  08016   Minamikambara       南蒲原
+
+長  野  09
+  09001   Kamiina             上伊那
+  09002   Kamitakai           上高井
+  09003   Kamiminochi         上水内
+  09004   Kiso                木曽
+  09005   Kitaazumi           北安曇
+  09006   Kitasaku            北佐久
+* 09007   Sarashina           更級      "Dec.31,2004"
+  09008   Shimoina            下伊那
+  09009   Shimotakai          下高井
+  09010   Shimominochi        下水内
+  09011   Suwa                諏訪
+  09012   Chiisagata          小県
+* 09013   (Reserved)          (欠番）
+  09014   Hanishina           埴科
+  09015   Higashichikuma      東筑摩
+* 09016   Minamiazumi         南安曇    "Sep.30,2005"
+  09017   Minamisaku          南佐久
+
+東  京  10
+* 10001   Kitatama            北多摩    "Nov.2,1970"
+  10002   Nishitama           西多摩
+* 10003   Minamitama          南多摩    "Oct.31,1971"
+  10004   Oshima-Shicho       大島支庁
+          　Oshimamachi         大島町
+          　Toshimamura         利島村
+          　Niijimamura         新島村
+          　Kozushimamura       神津島村
+  10005   Miyake-Shicho       三宅支庁
+          　Miyakemura          三宅村
+          　Mikurajimamura      御蔵島村
+  10006   Hachijo-Shicho      八丈支庁
+          　Hachijomachi        八丈町
+          　　Torishima         鳥島
+          　Aogashimamura       青ヶ島村
+  10007   Ogasawara-Shicho    小笠原支庁
+          　Ogasawaramura       小笠原村
+          　Chichijima          父島
+          　Hahajima            母島
+          　Iwojima             硫黄島
+          　Okinotorishima      沖の鳥島
+          　Minamitorishima     南鳥島
+
+神奈川  11
+  11001   Aiko                愛甲
+  11002   Ashigarakami        足柄上
+  11003   Ashigarashimo       足柄下
+  11004   Koza                高座
+* 11005   Tsukui              津久井    "Mar.10,2007"
+  11006   Naka                中
+  11007   Miura               三浦
+
+千  葉  12
+  12001   Awa                 安房
+  12002   Isumi               夷隅
+* 12003   Ichihara            市原      "Sep.30,1967"
+  12004   Inba                印旛
+* 12005   Kaijo               海上      "Jun.30,2005"
+  12006   Katori              香取
+* 12007   Kimitsu             君津      "Mar.31,1991"
+  12008   Sambu               山武
+* 12009   Sosa                匝瑳      "Mar.26,2006"
+* 12010   Chiba               千葉      "Dec.31,1966"
+  12011   Chosei              長生
+* 12012   Higashikatsushika   東葛飾    "Mar.27,2005"
+
+埼  玉  13
+  13001   Iruma               入間
+  13002   Osato               大里
+  13003   Kitaadachi          北足立
+  13004   Kitakatsushika      北葛飾
+* 13005   Kitasaitama         北埼玉    "Mar.22,2010"
+  13006   Kodama              児玉
+  13007   Chichibu            秩父
+  13008   Hiki                比企
+  13009   Minamisaitama       南埼玉
+
+茨  城  14
+  14001   Inashiki            稲敷
+* 14002   Kashima             鹿島      "Oct.10,2005"
+  14003   Kitasoma            北相馬
+  14004   Kuji                久慈
+  14005   Sashima             猿島
+* 14006   Taga                多賀      "Oct.31,2004"
+* 14007   Tsukuba             筑波      "Mar.26,2006"
+  14008   Naka                那珂
+* 14009   Namegata            行方      "Sep.1,2005"
+* 14010   Niihari             新治      "Mar.26,2006"
+* 14011   Nishiibaraki        西茨城    "Mar.18,2006"
+  14012   Higashiibaraki      東茨城
+* 14013   Makabe              真壁      "Sep.30,2005"
+  14014   Yuki                結城
+
+栃  木  15
+* 15001   Ashikaga            足利      "Sep.30,1962"
+* 15002   Aso                 安蘇      "Feb.27,2005"
+* 15003   Kamitsuga           上都賀    "Sep.30,2011"
+  15004   Kawachi             河内
+  15005   Shioya              塩谷
+  15006   Shimotsuga          下都賀
+  15007   Nasu                那須
+  15008   Haga                芳賀
+
+群  馬  16
+  16001   Agatsuma            吾妻
+* 16002   Usui                碓氷      "Mar.17,2006"
+  16003   Ora                 邑楽
+  16004   Kanra               甘楽
+  16005   Kitagumma           北群馬
+* 16006   Gumma               群馬       "Sep.30,2006"
+  16007   Sawa                佐波
+* 16008   Seta                勢多       "May.04,2009"
+  16009   Tano                多野
+  16010   Tone                利根
+* 16011   Nitta               新田       "Mar.26,2006"
+* 16012   Yamada              山田       "Mar.26,2006"
+
+山  梨  17
+* 17001   Kitakoma            北巨摩     "Mar.14,2006"
+  17002   Kitatsuru           北都留
+  17003   Nakakoma            中巨摩
+  17004   Nishiyatsushiro     西八代
+* 17005   Higashiyatsushiro   東八代    "Jul.31,2006"
+* 17006   Higashiyamanashi    東山梨    "Oct.31,2005"
+  17007   Minamikoma          南巨摩
+  17008   Minamitsuru         南都留
+
+静  岡  18
+* 18001   Abe                 安倍      "Dec.31,1968"
+* 18002   Inasa               引佐      "Jun.30,2005"
+* 18003   Ihara               庵原      "Oct.31,2008"
+* 18004   Iwata               磐田      "Jun.30,2005"
+* 18005   Ogasa               小笠      "Mar.31,2005"
+  18006   Kamo                賀茂
+* 18007   Shida               志太      "Dec.31,2008"
+  18008   Shuchi              周智
+  18009   Sunto               駿東
+  18010   Tagata              田方
+  18011   Haibara             榛原
+* 18012   Hamana              浜名      "Mar.22,2010"
+* 18013   Fuji                富士      "Mar.22,2010"
+
+岐  阜  19
+  19001   Anpachi             安八
+* 19002   Inaba               稲葉      "Mar.31,1963"
+  19003   Ibi                 揖斐
+* 19004   Ena                 恵那      "Feb.12,2005"
+  19005   Ono                 大野
+* 19006   Kaizu               海津      "Mar.27,2005"
+  19007   Kani                可児
+  19008   Kamo                加茂
+* 19009   Gujo                郡上      "Feb.29,2004"
+* 19010   Toki                土岐      "Jan.22,2006"
+  19011   Hashima             羽島
+  19012   Fuwa                不破
+* 19013   Mashita             益田      "Feb.29,2004"
+* 19014   Mugi                武儀      "Feb.6,2005"
+  19015   Motosu              本巣
+* 19016   Yamagata            山県      "Mar.31,2003"
+  19017   Yoro                養老
+* 19018   Yoshiki             吉城      "Jan.31,2005"
+
+愛  知  20
+  20001   Aichi               愛知
+* 20002   Atsumi              渥美      "Sep.30,2005"
+  20003   Ama                 海部
+  20004   Kitashitara         北設楽
+  20005   Chita               知多
+* 20006   Nakashima           中島      "Mar.31,2005"
+  20007   Nishikasugai        西春日井
+* 20008   Nishikamo           西加茂    "Jan.03,2010"
+  20009   Niwa                丹羽
+  20010   Nukata              額田
+* 20011   Haguri              葉栗      "Mar.31,2005"
+* 20012   Hazu                幡豆      "Mar.31,2011"
+* 20013   Higashikasugai      東春日井  "Nov.30,1970"
+* 20014   Higashikamo         東加茂    "Mar.31,2005"
+* 20015   Hekikai             碧海      "Nov.30,1970"
+* 20016   Hoi                 宝飯      "Jan.31,2010"
+* 20017   Minamishitara       南設楽    "Sep.30,2005"
+* 20018   Yana                八名      "Sep.29,1956"
+
+三  重  21
+* 21001   Age                 安芸      "Dec.31,2005
+* 21002   Ano                 安濃      "Sep.29,1956"
+* 21003   Ayama               阿山      "Oct.31,2004"
+* 21004   Iinan               飯南      "Dec.31,2004"
+* 21005   Ichishi             一志      "Dec.31,2005
+  21006   Inabe               員弁
+* 21007   Kawage              河芸      "Sep.29,1956"
+  21008   Kitamuro            北牟婁
+  21009   Kuwana              桑名
+* 21010   Shima               志摩      "Sep.30,2004"
+* 21011   Suzuka              鈴鹿      "Jan.10,2005"
+  21012   Taki                多気
+* 21013   Naga                名賀      "Oct.31,2004"
+  21014   Mie                 三重
+  21015   Minamimuro          南牟婁
+  21016   Watarai             度会
+
+京  都  22
+* 22001   Amada               天田      "Dec.31,2005
+* 22002   Ikaruga             何鹿      "Sep.29,1956"
+  22003   Otokuni             乙訓
+* 22004   Kasa                加佐      "Dec.31,2005
+* 22005   Kitakuwada          北桑田    "Dec.31,2005
+  22006   Kuse                久世
+* 22007   Kumano              熊野      "Mar.31,2004"
+  22008   Soraku              相楽
+* 22009   Takeno              竹野      "Mar.31,2004"
+  22010   Tsuzuki             綴喜
+* 22011   Naka                中        "Mar.31,2004"
+  22012   Funai               船井
+* 22013   Minamikuwada        南桑田    "Sep.29,1959"
+  22014   Yoza                与謝
+
+滋  賀  23
+* 23001   Ika                 伊香　    "Dec.31,2009"
+  23002   Inukami             犬上
+  23003   Echi                愛知
+  23004   Gamou               蒲生
+* 23005   Kanzaki             神崎      "Dec.31,2005
+* 23006   Kurita              栗太      "Sep.30,2001"
+* 23007   Koka                甲賀      "Sep.30,2004"
+* 23008   Sakata              坂田      "Sep.30,2005"
+* 23009   Shiga               滋賀      "Mar.19,2006"
+* 23010   Takashima           高島      "Dec.31,2004"
+* 23011   Higashiazai         東浅井    "Dec.31,2009"
+* 23012   Yasu                野洲      "Sep.30,2004"
+
+奈  良  24
+  24001   Ikoma               生駒
+  24002   Uda                 宇陀
+* 24003   Uchi                宇智      "Dec.31,1958"
+  24004   Kitakatsuragi       北葛城
+  24005   Shiki               磯城
+* 24006   Soekami             添上      "Mar.31,2005"
+  24007   Takaichi            高市
+* 24008   Minamikatsuragi     南葛城    "Mar.30,1958"
+  24009   Yamabe              山辺
+  24010   Yoshino             吉野
+
+大  阪  25
+* 25001   Kitakawachi         北河内    "Nov.2,1971"
+  25002   Sennan              泉南
+  25003   Senboku             泉北
+  25004   Toyono              豊能
+* 25005   Nakakawachi         中河内    "Apr.2,1965"
+  25006   Mishima             三島
+  25007   Minamikawachi       南河内
+
+和歌山  26
+  26001   Arida               有田
+  26002   Ito                 伊都
+  26003   Kaiso               海草
+* 26004   Naga                那賀      "Mar.31,2006"
+  26005   Nishimuro           西牟婁
+  26006   Higashimuro         東牟婁
+  26007   Hidaka              日高
+
+兵  庫  27
+  27001   Akou                赤穂
+* 27002   Asago               朝来      "Mar.31,2005"
+* 27003   Arima               有馬      "May.30,1958"
+* 27004   Izushi              出石      "Mar.31,2005"
+  27005   Ibo                 揖保
+* 27006   Innami              印南      "Jan.31,1979"
+  27007   Kako                加古
+* 27008   Kasai               加西      "Mar.31,1967"
+* 27009   Kato                加東      "Mar.19,2006"
+  27010   Kawabe              川辺
+  27011   Kanzaki             神崎
+* 27012   Kinosaki            城崎      "Mar.31,2005"
+  27013   Sayo                佐用
+* 27014   Shikama             飾磨      "Mar.26,2006"
+* 27015   Shiso               宍粟      "Mar.26,2006"
+  27016   Taka                多可
+* 27017   Taki                多紀      "Mar.31,1999"
+* 27018   Tsuna               津名      "Feb.10,2006"
+* 27019   Hikami              氷上      "Oct.31,2004"
+  27020   Mikata              美方
+* 27021   Mino                美嚢      "Oct.23,2005"
+* 27022   Mihara              三原      "Jan.10,2005"
+* 27023   Muko                武庫      "Mar.31,1954"
+* 27024   Yabu                養父      "Mar.31,2004"
+
+富  山  28
+* 28001   Imizu               射水      "Oct.31,2005"
+* 28002   Kaminiikawa         上新川    "Mar.31,2005"
+  28003   Shimoniikawa        下新川
+  28004   Nakaniikawa         中新川
+* 28005   Nishitonami         西砺波    "Oct.31,2005"
+* 28006   Nei                 婦負      "Mar.31,2005"
+* 28007   Himi                氷見      "Mar.31,1954"
+* 28008   Higashitonami       東砺波    "Oct.31,2004"
+
+福  井  29
+* 29001   Asuwa               足羽      "Jan.30,2006"
+  29002   Imadate             今立
+  29003   Oi                  大飯
+* 29004   Ono                 大野      "Nov.6,2005"
+* 29005   Onyu                遠敷      "Mar.2,2006"
+* 29006   Sakai               坂井      "Mar.19,2006"
+* 29007   Tsuruga             敦賀      "Jan.14,1955"
+  29008   Nanjo               南条
+  29009   Nyuu                丹生
+  29010   Mikata              三方
+  29011   Yoshida             吉田
+  29012   Mikatakaminaka      三方上中
+
+石  川  30
+* 30001   Ishikawa            石川      "Nov.10,2011"
+* 30002   Enuma               江沼      "Sep.30,2005"
+  30003   Kashima             鹿島
+  30004   Kahoku              河北
+* 30005   Suzu                珠洲      "Feb.28,2005"
+  30006   Nomi                能美
+  30007   Hakui               羽咋
+* 30008   Fugeshi             鳳至      "Feb.28,2005"
+  30009   Housu               鳳珠
+
+岡  山  31
+  31001   Aida                英田
+* 31002   Akaiwa              赤磐      "Jan.21,2007"
+  31003   Asakuchi            浅口
+* 31004   Atetsu              阿哲      "Mar.30,2005"
+* 31005   Oku                 邑久      "Oct.31,2004"
+  31006   Oda                 小田
+  31007   Katsuta             勝田
+* 31008   Kawakami            川上      "Sep.30,2004"
+* 31009   Kibi                吉備      "Jul.31,2005"
+  31010   Kume                久米
+* 31011   Kojima              児島      "Mar.21,2005"
+* 31012   Shitsuki            後月      "Feb.28,2005"
+* 31013   Jodo                上道      "Apr.30,1971"
+* 31014   Jobo                上房      "Mar.30,2005"
+  31015   Tsukubo             都窪
+  31016   Tomata              苫田
+  31017   Maniwa              真庭
+* 31018   Mitsu               御津      "Jan.21,2007"
+  31019   Wake                和気
+  31020   Kaga                加賀
+
+島  根  32
+* 32001   Ano                 安濃      "Mar.31,1954"
+* 32002   Ama                 海士      "Mar.31,1969"
+  32003   Iishi               飯石
+  32004   Ochi                邑智
+* 32005   Ohara               大原      "Oct.31,2004"
+  32006   Oki                 隠岐
+* 32007   Ochi                隠地      "Mar.31,1969"
+  32008   Kanoashi            鹿足
+* 32009   Suki                周吉      "Mar.31,1969"
+* 32010   Chibu               知夫      "Mar.31,1969"
+* 32011   Naka                那賀      "Sep.30,2005"
+  32012   Nita                仁多
+* 32013   Nima                迩摩      "Sep.30,2005"
+* 32014   Nogi                能義      "Sep.30,2004"
+* 32015   Hikawa              簸川      "Sep.30,2011"
+* 32016   Mino                美濃      "Oct.31,2004"
+* 32017   Yatsuka             八束      "Jul.31,2011"
+
+山  口  33
+* 33001   Asa                 厚狭      "Mar.21,2005"
+  33002   Abu                 阿武
+  33003   Oshima              大島
+* 33004   Otsu                大津      "Mar.21,2005"
+  33005   Kuga                玖珂
+  33006   Kumage              熊毛
+* 33007   Saba                佐波      "Sep.30,2005"
+* 33008   Tsuno               都濃      "Apr.20,2003"
+* 33009   Toyoura             豊浦      "Feb.12,2005"
+* 33010   Mine                美祢      "Mar.20,2008"
+* 33011   Yoshiki             吉敷      "Sep.30,2005"
+
+鳥  取  34
+  34001   Iwami               岩美
+* 34002   Ketaka              気高      "Oct.31,2004"
+  34003   Saihaku             西伯
+  34004   Tohaku              東伯
+  34005   Hino                日野
+  34006   Yazu                八頭
+
+広  島  35
+  35001   Aki                 安芸
+* 35002   Asa                 安佐      "Mar.19,1973"
+* 35003   Ashina              芦品      "Feb. 2,2003"
+* 35004   Kamo                賀茂      "Mar.21,2005"
+* 35005   Konu                甲奴      "Mar.30,2005"
+* 35006   Saeki               佐伯      "Nov.2,2005"
+  35007   Jinseki             神石
+  35008   Sera                世羅
+* 35009   Takata              高田      "Feb.29,2004"
+  35010   Toyota              豊田
+* 35011   Numakuma            沼隈      "Jan.31,2005"
+* 35012   Hiba                比婆      "Mar.30,2005"
+* 35013   Fukayasu            深安      "Feb.28,2006"
+* 35014   Futami              双三      "Mar.31,2004"
+* 35015   Mitsugi             御調      "Mar.27,2005"
+  35016   Yamagata            山県
+
+香  川  36
+  36001   Ayauta              綾歌
+* 36002   Okawa               大川      "Mar.31,2003"
+  36003   Kagawa              香川
+  36004   Kita                木田
+  36005   Syozu               小豆
+  36006   Nakatado            仲多度
+* 36007   Mitoyo              三豊      "Dec.31,2005
+
+徳  島  37
+* 37001   Awa                 阿波      "Mar.31,2005"
+  37002   Itano               板野
+* 37003   Oe                  麻植      "Sep.30,2004"
+  37004   Kaifu               海部
+  37005   Katsuura            勝浦
+  37006   Naka                那賀
+  37007   Myozai              名西
+  37008   Myodo               名東
+  37009   Mima                美馬
+  37010   Miyoshi             三好
+
+愛  媛  38
+  38001   Iyo                 伊予
+* 38002   Uma                 宇摩      "Mar.31,2004"
+  38003   Ochi                越智
+* 38004   Onsen               温泉      "Dec.31,2004"
+  38005   Kamiukena           上浮穴
+  38006   Kita                喜多
+  38007   Kitauwa             北宇和
+* 38008   Shuso               周桑      "Oct.31,2004"
+* 38009   Nii                 新居      "Mar.31,1959"
+  38010   Nishiuwa            西宇和
+* 38011   Higashiuwa          東宇和    "Mar.31,2004"
+  38012   Minamiuwa           南宇和
+
+高  知  39
+  39001   Agawa               吾川
+  39002   Aki                 安芸
+* 39003   Kami                香美       "Feb.28,2006"
+  39004   Takaoka             高岡
+  39005   Tosa                土佐
+  39006   Nagaoka             長岡
+  39007   Hata                幡多
+
+福  岡  40
+  40001   Asakura             朝倉
+* 40002   Itoshima            糸島   　 "Dec.31,2009"
+* 40003   Ukiha               浮羽      "Mar.19,2005"
+  40004   Onga                遠賀
+  40005   Kasuya              糟屋
+  40006   Kaho                嘉穂
+  40007   Kurate              鞍手
+* 40008   Sawara              早良      "Feb.28,1975"
+  40009   Tagawa              田川
+* 40010   Chikushi            筑紫      "Sep.30,2018"
+  40011   Chikujo             築上
+  40012   Mii                 三井
+* 40013   Miike               三池      "Jan.28,2007"
+  40014   Mizuma              三潴
+  40015   Miyako              京都
+* 40016   Munakata            宗像      "Mar.27,2005"
+* 40017   Yamato              山門      "Jan.28,2007"
+  40018   Yame                八女
+
+佐  賀  41
+* 41001   Ogi                 小城      "Feb.28,2005"
+  41002   Kanzaki             神埼
+  41003   Kishima             杵島
+* 41004   Saga                佐賀      "Sept.30,2007"
+  41005   Nishimatsuura       西松浦
+  41006   Higashimatsuura     東松浦
+  41007   Fujitsu             藤津
+  41008   Miyaki              三養基
+
+長  崎  42
+* 42001   Iki                 壱岐      "Feb.29,2004" 
+* 42002   Kamiagata           上県      "Feb.29,2004" 
+* 42003   Kitatakaki          北高来    "Feb.28,2005"
+  42004   Kitamatsuura        北松浦
+* 42005   Shimoagata          下県      "Feb.29,2004" 
+  42006   Nishisonogi         西彼杵
+  42007   Higashisonogi       東彼杵
+* 42008   Minamitakaki        南高来    "Mar.30,2006"
+  42009   Minamimatsuura      南松浦
+
+熊  本  43
+  43001   Ashikita            葦北
+  43002   Aso                 阿蘇
+  43003   Amakusa             天草
+* 43004   Uto                 宇土      "Jan.14,2005"
+  43005   Kamimashiki         上益城
+* 43006   Kamoto              鹿本      "Mar.22,2010"
+  43007   Kikuchi             菊池
+  43008   Kuma                球磨
+  43009   Shimomashiki        下益城
+  43010   Tamana              玉名
+* 43011   Hotaku              飽託      "Jan.31,1991"
+  43012   Yatsushiro          八代
+
+大  分  44
+* 44001   Usa                 宇佐      "Mar.30,2005"
+* 44002   Oita                大分      "Sep.30,2005"
+* 44003   Ono                 大野      "Mar.30,2005"
+* 44004   Kitaamabe           北海部    "Dec.31,2004"
+  44005   kusu                玖珠
+* 44006   Shimoge             下毛      "Feb.28,2005"
+* 44007   Naoiri              直入      "Mar.31,2005"
+* 44008   Nishikunisaki       西国東    "Sep.30,2005"
+  44009   Hayami              速見
+  44010   Higashikunisaki     東国東
+* 44011   Hita                日田      "Mar.21,2005"
+* 44012   Minamiamabe         南海部    "Mar. 2,2005"
+
+宮  崎  45
+  45001   Kitamorokata        北諸県
+  45002   Koyu                児湯
+  45003   Nishiusuki          西臼杵
+  45004   Nishimorokata       西諸県
+  45005   Higashiusuki        東臼杵
+  45006   Higashimorokata     東諸県
+* 45007   Minaminaka          南那珂    "Mar.29,2009"
+* 45008   Miyazaki            宮崎      "Mar.22,2010"
+
+鹿児島  46
+  46001   Aira                姶良
+* 46002   Isa                 伊佐     "Oct.31,2008"
+  46003   Izumi               出水
+* 46004   Ibusuki             揖宿     "Nov.30,2007"
+  46005   Oshima              大島
+  46006   Kagoshima           鹿児島
+* 46007   Kawanabe            川辺     "Nov.30,2007"
+  46008   Kimotsuki           肝属
+  46009   Kumage              熊毛
+  46010   Satsuma             薩摩
+  46011   Soo                 曽於
+* 46012   Hioki               日置     "Nov.6,2005"
+
+沖  縄  47
+  47001   Kunigami            国頭
+  47002   Shimajiri           島尻
+  47003   Nakagami            中頭
+  47004   Miyako              宮古
+  47005   Yaeyama             八重山

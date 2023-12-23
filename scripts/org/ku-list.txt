@@ -1,0 +1,230 @@
+2024年1月1日に「浜松市」の区が変更となります。
+　政令指定都市の区番号(20政令指定都市171区、消滅13区）
+　　　　　　　　　　
+※注：東京都の23の特別区は市リストに移行しました（2010年4月1日付）
+
+No.	区名(ﾛｰﾏ字)	区名(漢字)
+
+札幌市(0101)
+010101  Chuo            中央
+010102  Kita            北
+010103  Higashi         東
+010104  Shiroishi       白石
+010105  Toyohira        豊平
+010106  Minami          南
+010107  Nishi           西
+010108  Atsubetsu       厚別
+010109  Teine           手稲
+010110  Kiyota          清田
+
+仙台市(0601)
+060101  Aoba            青葉
+060102  Miyagino        宮城野
+060103  Wakabayashi     若林
+060104  Taihaku         太白
+060105  Izumi           泉
+
+新潟市(0801)
+080101  Kita            北
+080102  Higashi         東
+080103  Chuo            中央
+080104  Konan           江南
+080105  Akiha           秋葉
+080106  Minami          南
+080107  Nishi           西
+080108  Nishikan        西蒲
+
+横浜市(1101)
+110101  Tsurumi         鶴見
+110102  Kanagawa        神奈川
+110103  Nishi           西
+110104  Naka            中
+110105  Minami          南
+110106  Hodogaya        保土ケ谷
+110107  Isogo           磯子
+110108  Kanazawa        金沢
+110109  Kohoku          港北
+110110  Totsuka         戸塚
+110111  Konan           港南
+110112  Asahi           旭
+110113  Midori          緑
+110114  Seya            瀬谷
+110115  Sakae           栄
+110116  Izumi           泉
+110117  Aoba            青葉
+110118  Tsuzuki         都筑
+
+川崎市(1103)
+110301  Kawasaki        川崎
+110302  Saiwai          幸
+110303  Nakahara        中原
+110304  Takatsu         高津
+110305  Tama            多摩
+110306  Miyamae         宮前
+110307  Asao            麻生
+
+相模原市(1110)
+111001  Midori          緑
+111002  Chuo            中央
+111003  Minami          南
+
+千葉市(1201)
+120101  Chuo            中央
+120102  Hanamigawa      花見川
+120103  Inage           稲毛
+120104  Wakaba          若葉
+120105  Midori          緑
+120106  Mihama          美浜
+
+さいたま市(1344)
+134401  Nishi           西
+134402  Kita            北
+134403  Omiya           大宮
+134404  Minuma          見沼
+134405  Chuo            中央
+134406  Sakura          桜
+134407  Urawa           浦和
+134408  Minami          南
+134409  Midori          緑
+134410  Iwatsuki        岩槻
+
+静岡市(1801)
+180101  Aoi             葵
+180102  Suruga          駿河
+180103  Shimizu         清水
+
+浜松市(1802)
+180201※Naka            中        2023年12月31日以前
+180202※Higashi         東        2023年12月31日以前
+180203※Nishi           西        2023年12月31日以前
+180204※Minami          南        2023年12月31日以前
+180205※Kita            北        2023年12月31日以前
+180206※Hamakita        浜北      2023年12月31日以前
+180207  Tenryu          天竜
+180208  Chuo　　　　　　中央
+180209  Hamana　　　　　浜名
+
+名古屋市(2001)
+200101  Chikusa         千種
+200102  Higashi         東
+200103  Kita            北 
+200104  Nishi           西
+200105  Nakamura        中村
+200106  Naka            中
+200107  Showa           昭和
+200108  Mizuho          瑞穂
+200109  Atsuta          熱田
+200110  Nakagawa        中川
+200111  Minato          港
+200112  Minami          南
+200113  Moriyama        守山
+200114  Midori          緑
+200115  Meito           名東
+200116  Tenpaku         天白
+
+京都市(2201)
+220101  Kita           北
+220102  Kamigyo        上京
+220103  Sakyo          左京
+220104  Nakagyo        中京
+220105  Higashiyama    東山
+220106  Shimogyo       下京
+220107  Minami         南
+220108  Ukyo           右京
+220109  Fushimi        伏見
+220110  Yamashina      山科
+220111  Nishikyo       西京
+
+大阪市(2501)
+250101  Kita           北
+250102  Miyakojima     都島
+250103  Fukushima      福島
+250104  Konohana       此花
+250105※Higashi        東        1989(平成元)年2月12日以前
+250106  Nishi          西
+250107  Minato         港
+250108  Taisho         大正
+250109  Tennoji        天王寺
+250110※Minami         南        1989(平成元)年2月12日以前
+250111  Naniwa         浪速
+250112※Oyodo          大淀      1989(平成元)年2月12日以前
+250113  Nishiyodogawa  西淀川
+250114  Higashiyodogawa  東淀川
+250115  Higashinari    東成
+250116  Ikuno          生野
+250117  Asahi          旭
+250118  Joto           城東
+250119  Abeno          阿倍野
+250120  Sumiyoshi      住吉
+250121  Higashisumiyoshi 東住吉
+250122  Nishinari      西成
+250123  Yodogawa       淀川
+250124  Tsurumi        鶴見
+250125  Suminoe        住之江
+250126  Hirano         平野
+250127  Chuo           中央
+
+堺市(2502)		
+250201  Sakai          堺
+250202  Naka           中
+250203  Higashi        東
+250204  Nishi          西
+250205  Minami         南
+250206  Kita           北
+250207  Mihara         美原
+
+神戸市(2701)
+270101  Higashinada    東灘
+270102  Nada           灘
+270103  Hyogo          兵庫
+270104  Nagata         長田
+270105  Suma           須磨
+270106  Tarumi         垂水
+270107  Kita           北
+270108  Chuo           中央
+270109  Nishi          西
+270110※Fukiai         葺合     1980(昭和55)年11月30日以前
+270111※Ikuta          生田     1980(昭和55)年11月30日以前
+
+岡山市(3101)
+310101  Kita           北
+310102  Naka           中
+310103  Hinagashi      東
+310104  Minami         南
+
+広島市(3501)
+350101  Naka           中
+350102  Higashi        東
+350103  Minami         南
+350104  Nishi          西
+350105  Asaminami      安佐南
+350106  Asakita        安佐北
+350107  Aki            安芸
+350108  Saeki          佐伯
+
+福岡市(4001)
+400101  Higashi        東
+400102  Hakata         博多
+400103  Chuo           中央
+400104  Minami         南
+400105  Nishi          西
+400106  Jonan          城南
+400107  Sawara         早良
+
+北九州市(4021)
+402101  Moji           門司
+402102  Wakamatsu      若松
+402103  Tobata         戸畑
+402104  Kokurakita     小倉北
+402105  Kokuraminami   小倉南
+402106  Yahatahigashi  八幡東
+402107  Yahatanishi    八幡西
+402108※Yahata         八幡      1974(昭和49)年3月31日以前
+402109※Kokura         小倉      1974(昭和49)年3月31日以前
+
+熊本市（4301）
+430101  Chuo           中央
+430102  Higashi        東
+430103  Nishi          西
+430104  Minami         南 
+430105  Kita           北
