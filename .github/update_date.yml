@@ -1,0 +1,30 @@
+name: Last Update
+
+on:
+  push
+
+jobs:
+  SetGlobalConstants:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      DATE_BADGE_COLOR: 4B0082
+    steps:
+      - run: echo 'Setting constants.'
+
+  RunBringYourOwnBadge:
+    needs: SetGlobalConstants
+    runs-on: ubuntu-latest
+    steps:
+      - id: date
+        run: echo "##[set-output name=date;]$(date)"
+      - name: Time badge
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          NAME: time
+          LABEL: 'Updated at'
+          STATUS: ${{ steps.date.outputs.date }}
+          COLOR: ${{ needs.SetGlobalConstants.outputs.DATE_BADGE_COLOR }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+
+
