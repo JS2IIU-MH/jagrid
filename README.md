@@ -2,7 +2,7 @@
 
 <img src="doc/JAGrid.png" width=600>
 
-移動運用のお供に、現在地のグリッドロケータを表示します。
+移動運用のお供に。現在地のグリッドロケータを表示します。
 
 ![](https://byob.yarr.is/JS2IIU-MH/jagrid/time)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
