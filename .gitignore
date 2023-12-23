@@ -44,3 +44,8 @@ app.*.map.json
 
 # flutter_dotenv
 .env*
+
+# MS Office files
+*.pptx
+*.xlsx
+*.docx
