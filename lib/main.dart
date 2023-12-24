@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'package:jagrid/gps.dart';
@@ -161,7 +162,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: ElevatedButton.styleFrom(
                 foregroundColor: Theme.of(context).colorScheme.onPrimary,
                 backgroundColor: Theme.of(context).colorScheme.primary,
-                textStyle: const TextStyle(fontSize: 30),
+                textStyle: const TextStyle(fontSize: 28),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(13)),
               ),
@@ -182,7 +183,9 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Share.share('今ここ→ $revGeoAddress, $currentGL. #JAGrid');
+                },
                 icon: Icon(
                   Icons.share,
                   color: Theme.of(context).colorScheme.primary,

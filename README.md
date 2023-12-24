@@ -86,6 +86,11 @@
 - [Flutterでdotenvを使ってみる](https://zenn.dev/someone7140/articles/2d0d65704a5b1e)
   - `await dotenv.load(fileName: ".env")`は`Future main()`の中で。
 
+### Share Button
+- [share_plus | Flutter Package](https://pub.dev/packages/share_plus/install)
+- [【flutter】アプリにシェア機能を持たせる~Share~ | Programmable](https://www.mechengjp.com/%E3%80%90flutter%E3%80%91%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AB%E3%82%B7%E3%82%A7%E3%82%A2%E6%A9%9F%E8%83%BD%E3%82%92%E6%8C%81%E3%81%9F%E3%81%9B%E3%82%8Bshare/)
+- [Flutterでシェア機能を持ったアプリを作成する #Flutter - Qiita](https://qiita.com/yass97/items/9e7c7393f07080ae0105)
+
 ## めも
 ### デバッグが終わったら
 - アプリアイコンの設定
