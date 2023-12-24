@@ -7,6 +7,12 @@
 ![](https://byob.yarr.is/JS2IIU-MH/jagrid/time)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
+## 動作環境
+- iOS
+- Android
+- MacOS
+- Windows
+
 ## プライバシーポリシー
 アマチュア無線局JS2IIUおよびその免許人は、提供するアプリ「JA Grid」の利用者に関する個人情報を含んだ情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。
 
@@ -27,6 +33,15 @@
 
 - 制定日・改訂日
   - 制定: 2023年12月23日
+
+
+## テスト
+
+|             |         **Simulator**         |    **Mobile Device**   |
+|-------------|:-----------------------------:|:----------------------:|
+|   **iOS**   | iPhone 15 Pro Max iOS 17.0    |                        |
+| **Android** | Pixel 2 API 30<br>Pixel 3 API 33 | AQUOS wish A103 API 33 |
+
 
 ## 参考
 ### Geolocator
