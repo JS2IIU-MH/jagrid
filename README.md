@@ -11,6 +11,12 @@
 - iOS
 - Android
 
+## リリースノート
+| Version | リリースノート | Date |
+|---|---|---|
+| 1.0.0 | 初回リリース | 2023/01/03 |
+|  |  |  |
+
 ## プライバシーポリシー
 アマチュア無線局JS2IIUおよびその免許人は、提供するアプリ「JA Grid」の利用者に関する個人情報を含んだ情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。
 
@@ -109,6 +115,7 @@
 - アプリアイコンの設定
     - アイコン画像を`assets/icon`フォルダに。~~サイズは512x512。~~
     - `flutter_launcher_icons`が変換してくれるので、サイズは`1024x1024`でよい。ただし、Androidの場合は真ん中だけを切り取るので、ある程度余白を取る。公式の仕様はこちら：[Google Play アイコンのデザイン仕様  |  Android Developers](https://developer.android.com/distribute/google-play/resources/icon-design-specifications?hl=ja)
+    - ただし、Android向けに最適化した画像をiOS向けにも使った場合、アイコンが小さくなる。（余白部分が広くなる）
     - `flutter_launcher_icons`パッケージを導入する。[flutter_launcher_icons | Dart Package](https://pub.dev/packages/flutter_launcher_icons)
       ```yaml
       dev_dependencies:
@@ -131,8 +138,22 @@
     debugShowCheckedModeBanner: false,
     ```
 - スクショをとる
+  - Androidの場合は最低2枚必要
+  - GPS情報が更新されない場合は、一度GoogleMapを立ち上げて現在位置表示してからアプリに戻ると良い。
   - [【Xcode】シミュレータのスクリーンショットを撮る方法 - Reasonable Code](https://reasonable-code.com/xcode-simulator-screenshot/)
 - スマホに表示されるアプリ名を変更する
   - [【Flutter】アプリ名やアイコンの変更とローンチスクリーンの表示](https://isub.co.jp/flutter/flutter-change-app-name-icon-launch-splash-screen/)
   - `android/app/src/main/AndroidManifest.xml`の`android:label`の値を変更
   - `ios/Runner/Info.plist`の`CFBundleName`の値を変更
+
+- アプリのバージョニング
+  - `pubspec.yaml`のバージョン番号を更新する
+    ```yaml
+    version: 1.0.0+1
+    ```
+
+- リリース用にビルドする
+  ```sh
+  % flutter build appbundle --release
+  ```
+

@@ -1,4 +1,4 @@
-package com.example.jagrid
+package com.js2iiu.jagrid
 
 import io.flutter.embedding.android.FlutterActivity
 
