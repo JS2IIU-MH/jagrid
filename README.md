@@ -48,6 +48,7 @@
 
 
 ## 参考
+以下、自分の覚えメインです。
 ### Geolocator
 - [geolocator | Flutter Package](https://pub.dev/packages/geolocator/example)
 - [flutter geolocationの許可のエラーを解決したい](https://teratail.com/questions/376694)
@@ -145,15 +146,25 @@
   - [【Flutter】アプリ名やアイコンの変更とローンチスクリーンの表示](https://isub.co.jp/flutter/flutter-change-app-name-icon-launch-splash-screen/)
   - `android/app/src/main/AndroidManifest.xml`の`android:label`の値を変更
   - `ios/Runner/Info.plist`の`CFBundleName`の値を変更
-
 - アプリのバージョニング
   - `pubspec.yaml`のバージョン番号を更新する
     ```yaml
     version: 1.0.0+1
     ```
-
+  - [【Flutter】AndroidアプリをPlayストアで公開するときに「バージョン コード 1 の APK または Android App Bundle がすでに存在するため、別のバージョン コードを使用する必要があります。」と言われるときの対策 #Flutter - Qiita](https://qiita.com/zb185423/items/2a7b49c32b817049cf2d)
 - リリース用にビルドする
   ```sh
   % flutter build appbundle --release
   ```
 
+
+## WEB API
+Google Playで内部テストを行った際に、ジオコーダーのAPIが動作しない問題が発生。アプリの権限の設定不備が原因。`android\app\src\main\AndroidManifest.xml`に以下の内容を記載することで権限の問題が解決した。
+  ```xml
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  ```
+- [Flutterアプリでリリースビルド時にAPIが叩けない - permission （Android） #Android - Qiita](https://qiita.com/shinbey221/items/13a554cdc4b910a6087f)
+- [FlutterのreleaseビルドでHTTP通信が使えないとき #Android - Qiita](https://qiita.com/Frog_kt/items/130c4105a0e94dc25777)
+- [error when using https with flutter http.dart package - Stack Overflow](https://stackoverflow.com/questions/54728717/error-when-using-https-with-flutter-http-dart-package)
+- [ネットワークに接続する  |  Connectivity  |  Android Developers](https://developer.android.com/training/basics/network-ops/connecting?hl=ja)
