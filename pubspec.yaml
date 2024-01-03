@@ -115,5 +115,8 @@ flutter:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/icon/JAGridIcon.png"
+  image_path: "assets/icon/JAGridIcon_2_1024.png"
+  adaptive_icon_background: '#ffffff'
+  adaptive_icon_foreground: 'assets/icon/JAGridIcon_2_1024.png'  # Android 8
+  min_sdk_android: 21
 

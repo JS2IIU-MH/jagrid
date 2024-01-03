@@ -107,7 +107,8 @@
 ## めも
 ### デバッグが終わったら
 - アプリアイコンの設定
-    - アイコン画像を`assets/icon`フォルダに。サイズは512x512。
+    - アイコン画像を`assets/icon`フォルダに。~~サイズは512x512。~~
+    - `flutter_launcher_icons`が変換してくれるので、サイズは`1024x1024`でよい。ただし、Androidの場合は真ん中だけを切り取るので、ある程度余白を取る。公式の仕様はこちら：[Google Play アイコンのデザイン仕様  |  Android Developers](https://developer.android.com/distribute/google-play/resources/icon-design-specifications?hl=ja)
     - `flutter_launcher_icons`パッケージを導入する。[flutter_launcher_icons | Dart Package](https://pub.dev/packages/flutter_launcher_icons)
       ```yaml
       dev_dependencies:
@@ -117,6 +118,8 @@
         android: true
         ios: true
         image_path: "assets/icon/JAGridIcon.png"
+        adaptive_icon_background: '#ffffff'
+        adaptive_icon_foreground: 'assets/icon/JAGridIcon.png'
       ```
     - 以下のコマンドを実行する
     ```sh
