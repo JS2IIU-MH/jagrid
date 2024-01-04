@@ -12,10 +12,11 @@
 - Android
 
 ## リリースノート
-| Version | リリースノート | Date |
-|---|---|---|
-| 1.0.0 | 初回リリース | 2023/01/03 |
-|  |  |  |
+| Version | Release | リリースノート | Date |
+|---|---|---|---|
+| 1 (1.0.0) | | 初回リリース | 2024/01/03 |
+| 2 (1.0.1) | | WEB API周りを修正 | 2024/01/03 |
+| 3 (1.0.2) | [v1.0.2-alpha](releases/tag/v1.0.2-alpha) | WEB API周りを再度修正。本バージョンにて、Android版のみGoogle Playでクローズドテスト実施予定。 | 2024/01/03 |
 
 ## プライバシーポリシー
 アマチュア無線局JS2IIUおよびその免許人は、提供するアプリ「JA Grid」の利用者に関する個人情報を含んだ情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。
@@ -49,7 +50,8 @@
 
 ## 参考
 以下、自分の覚えメインです。
-### Geolocator
+
+### GPS情報とGeolocator
 - [geolocator | Flutter Package](https://pub.dev/packages/geolocator/example)
 - [flutter geolocationの許可のエラーを解決したい](https://teratail.com/questions/376694)
 - [【Flutter】スマホの位置情報を取得するやり方](https://zenn.dev/namioto/articles/3abb0ccf8d8fb6)
@@ -92,6 +94,10 @@
         }
     }
     ```
+- [Pythonで逆ジオコーディング【国土地理院API】 #pandas - Qiita](https://qiita.com/kosei_KB/items/5668bc6522ebe866f291)
+- [逆ジオコーディングAPIサービス、いつどれを使えばよいか調べた話](https://zenn.dev/niccari/articles/7c0f95d175903c)
+- [逆ジオコーディング - NAVITIME API 2.0 仕様書](https://api-sdk.navitime.co.jp/api/specs/api_guide/address-reverse_geocoding.html)
+- [ジオコーディング サービス  |  Maps JavaScript API  |  Google for Developers](https://developers.google.com/maps/documentation/javascript/geocoding?hl=ja)
 
 ### Grid Locator
 - [グリッドロケーター](https://www.jarl.org/Japanese/1_Tanoshimo/1-2_Award/gl.htm)
@@ -130,9 +136,9 @@
         adaptive_icon_foreground: 'assets/icon/JAGridIcon.png'
       ```
     - 以下のコマンドを実行する
-    ```sh
-    % flutter pub run flutter_launcher_icons:main
-    ```
+      ```sh
+      % flutter pub run flutter_launcher_icons:main
+      ```
 - 画面右上のDEBUGラベルを消す
   - `main.dart`の`home: const MyHomePage(title: 'JA Grid'),`の次の行に挿入する。
     ```dart
@@ -156,6 +162,9 @@
   ```sh
   % flutter build appbundle --release
   ```
+- Githubで新しいリリースを作成する
+  - [git tag と GitHub の Release 機能でプロっぽさを出してみよう #Git - Qiita](https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53)
+  - [GitHub でプロジェクトをリリースする - GitHub Docs](https://docs.github.com/ja/repositories/releasing-projects-on-github)
 
 
 ## WEB API
