@@ -8,6 +8,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:jagrid/gps.dart';
 import 'package:jagrid/geoloc.dart';
 import 'package:jagrid/gl.dart';
+import 'package:jagrid/distance.dart';
 
 void main() {
   // load dotenv environment file
@@ -46,14 +47,43 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   // int _counter = 0;
-  int _countUpdate = 0;
+  // int _countUpdate = 0;
+  int gpsCounter = 0;
   // latitude longitude
   double currentLat = 0.0;
   double currentLon = 0.0;
+  // previous GPS location
+  double prevLat = 0.0;
+  double prevLon = 0.0;
   // GL string from convGridLocator()
   String currentGL = 'GridLocator';
   // address string from reverseGeoCoder
   String revGeoAddress = '現在地住所';
+
+  bool _checkGPSMovement(
+      double stLat, double stLon, double enLat, double enLon) {
+    debugPrint('_checkGPSMovement');
+
+    // 500 [m] より大きく移動したらtrue
+    const double distThreshold = 500;
+    const int gpsLimit = 5;
+
+    var dist = distanceLatLon(stLat, stLon, enLat, enLon);
+
+    debugPrint('move dist: $dist');
+    if (dist > distThreshold || gpsCounter < gpsLimit) {
+      if (dist > distThreshold) {
+        gpsCounter = 0;
+      } else {
+        gpsCounter++;
+      }
+      debugPrint('gpsCounter: $gpsCounter');
+      return true;
+    } else {
+      gpsCounter++;
+      return false;
+    }
+  }
 
   void _updateLocation() async {
     debugPrint('_updateLocation()');
@@ -95,10 +125,13 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _locationUpdate() {
-    // avoid unneccesary repeat updte by counter
-    _countUpdate++;
-    if (_countUpdate < 5) {
-      _updateLocation();
+    // avoid unneccesary repeat update
+
+    prevLat = currentLat;
+    prevLon = currentLon;
+    _updateLocation();
+
+    if (_checkGPSMovement(currentLat, currentLon, prevLat, prevLon)) {
       _updateAddress();
       _updateGL();
     }
@@ -184,7 +217,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               IconButton(
                 onPressed: () {
-                  Share.share('今ここ→ $revGeoAddress, $currentGL. #JAGrid');
+                  Share.share('移動運用地はここ→ $revGeoAddress, $currentGL. #JAGrid');
                 },
                 icon: Icon(
                   Icons.share,

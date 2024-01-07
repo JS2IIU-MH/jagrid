@@ -17,6 +17,7 @@
 | 1 (1.0.0) | | 初回リリース | 2024/01/03 |
 | 2 (1.0.1) | | WEB API周りを修正 | 2024/01/03 |
 | 3 (1.0.2) | [v1.0.2-alpha](releases/tag/v1.0.2-alpha) | WEB API周りを再度修正。本バージョンにて、Android版のみGoogle Playでクローズドテスト実施予定。 | 2024/01/03 |
+| 4 (1.0.3) | 次回予定 | WEB APIリクエストの回数を制限（前回リクエスト時の位置と現在位置の距離をみる）<br> | |
 
 ## プライバシーポリシー
 アマチュア無線局JS2IIUおよびその免許人は、提供するアプリ「JA Grid」の利用者に関する個人情報を含んだ情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。
@@ -167,7 +168,7 @@
   - [GitHub でプロジェクトをリリースする - GitHub Docs](https://docs.github.com/ja/repositories/releasing-projects-on-github)
 
 
-## WEB API
+### WEB API
 Google Playで内部テストを行った際に、ジオコーダーのAPIが動作しない問題が発生。アプリの権限の設定不備が原因。`android\app\src\main\AndroidManifest.xml`に以下の内容を記載することで権限の問題が解決した。
   ```xml
   <uses-permission android:name="android.permission.INTERNET" />
@@ -177,3 +178,8 @@ Google Playで内部テストを行った際に、ジオコーダーのAPIが動
 - [FlutterのreleaseビルドでHTTP通信が使えないとき #Android - Qiita](https://qiita.com/Frog_kt/items/130c4105a0e94dc25777)
 - [error when using https with flutter http.dart package - Stack Overflow](https://stackoverflow.com/questions/54728717/error-when-using-https-with-flutter-http-dart-package)
 - [ネットワークに接続する  |  Connectivity  |  Android Developers](https://developer.android.com/training/basics/network-ops/connecting?hl=ja)
+
+### 2地点間の距離（緯度経度から計算する）
+- [緯度経度から2地点間の距離を計算する！Google方式とヒュベニ式・表計算ソフトで計算できる・GPSデータも使える – 私は何から出来ているのか？](https://komoriss.com/calculate-distance-between-two-points-from-latitude-and-longitude/)
+- [Python で2点の緯度経度から距離を計測する方法 - GIS奮闘記](https://www.gis-py.com/entry/py-latlon2distance#google_vignette)
+
