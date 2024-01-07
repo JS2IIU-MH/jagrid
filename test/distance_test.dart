@@ -8,16 +8,34 @@ void main() {
   var iwa_gym = [35.2807224, 136.8612082];
   var tokyo_sta = [35.6810981, 139.7635163];
 
-  test('iwakura st. to gym', () {
-    expect(
-        distanceLatLon(iwa_sta[0], iwa_sta[1], iwa_gym[0], iwa_gym[1]), 1297);
+  group('test distanceLatLon', () {
+    test('iwakura st. to gym', () {
+      expect(
+          distanceLatLon(iwa_sta[0], iwa_sta[1], iwa_gym[0], iwa_gym[1]), 1297);
+    });
+    test('iwakura st. to city hall', () {
+      expect(distanceLatLon(iwa_sta[0], iwa_sta[1], iwa_ch[0], iwa_ch[1]), 258);
+    });
+    test('iwakura st. to tokyo st.', () {
+      expect(distanceLatLon(iwa_sta[0], iwa_sta[1], tokyo_sta[0], tokyo_sta[1]),
+          266020);
+    });
   });
-  test('iwakura st. to city hall', () {
-    expect(distanceLatLon(iwa_sta[0], iwa_sta[1], iwa_ch[0], iwa_ch[1]), 258);
-  });
-  test('iwakura st. to tokyo st.', () {
-    expect(distanceLatLon(iwa_sta[0], iwa_sta[1], tokyo_sta[0], tokyo_sta[1]),
-        266020);
+
+  group('test distanceLatLon2', () {
+    test('iwakura st. to gym', () {
+      expect(distanceLatLon2(iwa_sta[0], iwa_sta[1], iwa_gym[0], iwa_gym[1]),
+          1297);
+    });
+    test('iwakura st. to city hall', () {
+      expect(
+          distanceLatLon2(iwa_sta[0], iwa_sta[1], iwa_ch[0], iwa_ch[1]), 258);
+    });
+    test('iwakura st. to tokyo st.', () {
+      expect(
+          distanceLatLon2(iwa_sta[0], iwa_sta[1], tokyo_sta[0], tokyo_sta[1]),
+          266020);
+    });
   });
 }
 

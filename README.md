@@ -45,11 +45,11 @@
 
 |             |         **Simulator**         |    **Mobile Device**   |
 |-------------|:-----------------------------:|:----------------------:|
-|   **iOS**   | iPhone 15 Pro Max iOS 17.0    |                        |
+|   **iOS**   | iPhone 15 Pro Max iOS 17.0<br>iPhone 15 Pro iOS 17.2    |                        |
 | **Android** | Pixel 2 API 30<br>Pixel 3 API 33 | AQUOS wish A103 API 33 |
 
 
-## 参考
+## 参考メモ
 以下、自分の覚えメインです。
 
 ### GPS情報とGeolocator
@@ -118,8 +118,7 @@
 - [【flutter】アプリにシェア機能を持たせる~Share~ | Programmable](https://www.mechengjp.com/%E3%80%90flutter%E3%80%91%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AB%E3%82%B7%E3%82%A7%E3%82%A2%E6%A9%9F%E8%83%BD%E3%82%92%E6%8C%81%E3%81%9F%E3%81%9B%E3%82%8Bshare/)
 - [Flutterでシェア機能を持ったアプリを作成する #Flutter - Qiita](https://qiita.com/yass97/items/9e7c7393f07080ae0105)
 
-## めも
-### デバッグが終わったら
+### デバッグが一段落したら
 - アプリアイコンの設定
     - アイコン画像を`assets/icon`フォルダに。~~サイズは512x512。~~
     - `flutter_launcher_icons`が変換してくれるので、サイズは`1024x1024`でよい。ただし、Androidの場合は真ん中だけを切り取るので、ある程度余白を取る。公式の仕様はこちら：[Google Play アイコンのデザイン仕様  |  Android Developers](https://developer.android.com/distribute/google-play/resources/icon-design-specifications?hl=ja)

@@ -33,3 +33,31 @@ int distanceLatLon(double stLat, double stLon, double enLat, double enLon) {
 
   return distance;
 }
+
+int distanceLatLon2(double stI, double stK, double enI, double enK) {
+  // 定数
+  // 子午線・卯酉線曲率半径の分母
+  const double EE = 6.69437999019758E-03;
+  //
+  const double Rx = 6378137.0;
+  // 平均緯度
+  var I = (enI + stI) / 2 * pi / 180;
+
+  // 子午線・卯酉線曲率半径の分母
+  var W = sqrt(1 - EE * pow(sin(I), 2));
+
+  // 子午線曲率半径
+  var M = (Rx * (1 - EE)) / pow(W, 3);
+  // 卯酉線（ぼうゆうせん）曲率半径
+  var N = Rx / W;
+
+  // 緯度差（ラジアン）
+  var dI = (enI - stI) * pi / 180;
+  // 経度差（ラジアン）
+  var dK = (enK - stK) * pi / 180;
+
+  var dist = sqrt(pow(dI * M, 2) + pow(dK * N * cos(I), 2));
+  var distance = dist.floor();
+
+  return distance;
+}
